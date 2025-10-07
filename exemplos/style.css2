@@ -1,0 +1,54 @@
+    /*seletor universal*/
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+    /*seletor por elemento*/
+body {
+    background-color: aliceblue;
+    color:rgb(0, 0, 0)
+
+}
+label{
+    font-size: 18px;
+}
+    /*seletor por classe*/
+    .titulo {
+    font-size: 24px;
+    color:darkcyan;
+    text-align: center;
+    }
+    /* seletor por ID*/
+    #titulo {
+        font-size: 32px;
+        color: crimson;
+        text-align:end;
+    }
+    /*seletor por atributo*/
+    input[type="text"] {
+        border:2px dashed #ccc;
+        border-radius: 10px;
+        background-color: black;
+        color:white;
+    }
+    /*seletor descendente*/
+    div label {
+        color: blueviolet;
+    }
+    /*seletor de pseudo-classed*/
+    a { 
+       color:white;
+       text-decoration: none;
+       cursor: pointer;
+
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+        /*propriedades css principais*/
+        /*cores e fundos*/
+        .elemento {
+            color: salmon; /*cor do texto*/
+        }

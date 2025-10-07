@@ -1,0 +1,4 @@
+git config --global user.name PieHe09
+git config --global user.email pietromessias39@gmail.com
+
+abrir o terminal ctrl + '

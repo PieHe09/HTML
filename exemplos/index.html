@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: azure;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- titulos -->
+
+    <h1 class="titulo"> Html Do Gallo </h1>
+    <hr>
+    <h2>O que é HTML?</h2>
+    <h3></h3>
+    <h4></h4>
+    <h5></h5>
+    <hr>
+    <p>
+      HTML, ou Linguagem de Marcação de Hipertexto, 
+    é a linguagem de programação padrão para criar e estruturar
+     páginas web, sendo o "esqueleto" que define o conteúdo
+    e a organização de um site.
+      Ela utiliza uma série de "tags" para marcar textos, imagens, links
+    e outros elementos, permitindo que os navegadores exibam o conteúdo
+    de forma estruturada e significativa. 
+    </p>
+    
+
+    <b>texto em negrito</b>
+    <br>
+    <strong>texto importante</strong>
+    <br>
+    <i>texto em italico</i>
+    <br>
+    <em>texto em enfase</em>
+    <br>
+    <mark>texto marcado</mark>
+    <br>
+    <small>texto menor</small>
+    <br>
+    <del>texto riscado</del>
+    <br>
+    <ins>texto inserido</ins>
+    <br>
+    <sub>texto subscrito</sub>
+    H<sub>2</sub>O
+    <br>
+    <sup>texto sobreescrito</sup>
+    25<sup>2</sup>
+    <br>
+
+    <!-- links -->
+
+    <a href="https://www.google.com">
+        Abrir o google na mesma aba
+    </a>
+    <br>
+    <a href="https://www.google.com" target="_blank">
+        Abrir o google na mesma aba
+    </a>
+    <br>
+    <a href="mailto:emaildestino@email.com">
+        Enviar email
+    </a>
+    <br>
+    <a href="tel:14991630339">
+        Telefonar
+    </a>
+    <br><br>
+
+    <!-- imagens -->
+
+     <img src="Ben 10" width="300" height="300" alt="texto alternativo">
+    <br><br>
+
+    <!-- listas -->
+     <p>Bebidas disponiveis no projeto</p>
+     <!-- lista não ordenada -->
+
+    <ul type="disk">
+        <li>Café</li>
+        <li>Chá</li>
+        <li>Agua</li>
+    </ul>
+    <p>atividades diarias:</p>
+    <!-- lista ordenada -->
+
+     <ol type="1">
+
+         <li>Acordar</li>
+         <li>Estudar</li>
+         <li>Alimentar-se</li>
+    </ol>
+    <!-- lista descritiva -->
+     <dl>
+        <dt>Café</dt>
+        <dd>- com açucar e sem açucar</dd>
+        <dt>Chá</dt>
+        <dd>- com açúcar e sem açucar</dd>
+        <dt>Agua</dt>
+        <dd>- gelada e sem gelo</dd>
+     </dl>
+        <!-- tabelas -->
+         <table>
+            <tr>
+                <th>Cidade</th>
+                <th>Qtde Alunos</th>
+                <th>Homens</th>
+                <th>Mulheres</th>
+            </tr>
+            <tr>
+                <td>Barra Bonita</td>
+                <td>13</td>
+                <td>8</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Igaraçu do Tietê</td>
+                <td>7</td>
+                <td>6</td>
+                <td>1</td>
+            </tr>
+         </table>
+         <br><br>
+         <table>
+            <thead>
+                <tr>
+
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+         </table>
+         <br><br>
+
+         <!-- container
+         div
+         header 
+         main
+         aside
+         footer
+         nav
+    -->
+
+    <!-- midias -->
+    <audio controls>
+        <source src="Mr. Big - Shine (MV).mp3" type="audio/mpeg">
+    </audio>
+
+    <video width="320" height="280" controls>
+        <source src="partoba1.mp4" type="video/mp4">
+    </video>
+
+        <!-- Formularios  -->
+<br><br>
+    <form method="post" action="">
+        <!-- campo de texto -->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required placeholder="Digite sua Senha">
+    <br><br>
+        <!-- campo de texto -->
+        <label for="nome">email:</label>
+        <input type="email" id="email" required placeholder="Digite sua Senha">
+    <br><br>
+        <!-- campo de texto -->
+        <label for="senha">senha:</label>
+        <input type="password" id="senha" required placeholder="Digite sua Senha">
+    <br><br>
+        <!-- campo de texto -->
+        <label for="idade">idade:</label>
+        <input type="number" id="idade" required placeholder="Digite sua Senha">
+    <br><br>
+        <!-- campo de data -->
+        <label for="data">data de nascimento:</label>
+        <input type="date" id="data" required placeholder="Digite sua Senha">
+    <br><br>
+        <!-- campo de data e hora-->
+        <label for="dataHora">data de consulta:</label>
+        <input type="datetime-local" id="datahora" required>
+    <br><br>
+        <!-- campo de selação -->
+         <label for="pais">País</label>
+         <select id="pais">
+            <option value="br">Brasil</option>
+            <option value="por">Portugal</option>
+            <option value="in">Inglaterra</option>
+            <option value="it">Italia</option>
+            <option value="eua">Estados Unidos</option>
+            <option value="pa">Paraguai</option>
+            <option value="ar">Argentina</option>
+            <option value="bo">Bolivia</option>
+            <option value="chil">Chile</option>
+            <option value="co">Colombia</option>
+            <option value="fr">França</option>
+            <option value="ja">Japão</option>
+            <option value="chin">China</option>
+            <option value="mar">Marrocos</option>
+            <option value="au">Australia</option>
+            <option value="ru">Reino Unido</option>
+            <option value="ale">Alemanha</option>
+            <option value="equ">Equador</option>
+            <option value="cds">Coreia do Sul</option>
+        </select>
+<br><br>
+
+         <!-- checkbox -->
+          <div>
+            <input type="checkbox" id="newsletter" value="sim">
+            <label for="newsletter">Deseja receber newsletter?</label>
+          </div>
+<br>
+          <!-- radio -->
+           <div>
+            <label>informe seu sexo</label><br>
+            <div><br>
+                <input type="radio" name="genero" id="masculino">
+                <label for="masculino">masculino</label>
+            </div>
+            <div>
+                <input type="radio" name="genero" id="feminino">
+                <label for="feminino">feminino</label>
+            </div>
+            <div>
+                <input type="radio" name="genero" id="naoInformado" checked>
+                <label for="naoInformado">Não Informar</label>
+            </div>
+           </div>
+           <br>
+
+           <!-- campo de upload -->
+            <label for="arquivo">Arquivo</label>
+            <input type="file" id="arquivo"> <!-- accept filtra os arquivos -->
+            <br><br>
+
+            <!-- campo seletor de cor -->
+             <label for="cor">Cor</label>
+             <input type="color" id="cor">
+             <br><br>
+
+             <!-- muito texto - area de texto -->
+            <label for="muitotexto">Comentario:</label>
+             <textarea name="muitotexto" rows="5" cols="80"></textarea>
+
+             <!-- Botões -->
+              <input type="reset" value="limpar o formulario">
+              <input type="submit" value="enviar dados">
+    </form>
+
+<br><br>
+</body>
+
+</html>
